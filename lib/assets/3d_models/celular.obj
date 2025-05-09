@@ -1,6 +1,6 @@
 # Blender v2.93.1 OBJ File: 'Phone.blend'
 # www.blender.org
-mtllib Phone.mtl
+mtllib celular.mtl
 o Cube
 v -0.287681 0.000113 0.789691
 v -0.473263 0.000113 0.627374

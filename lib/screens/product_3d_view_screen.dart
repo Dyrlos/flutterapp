@@ -46,10 +46,14 @@ class _Product3DViewScreenState extends State<Product3DViewScreen> {
   void _onSceneCreated(Scene scene) {
     _scene = scene;
     _scene.camera.position.z = _position.z; // Define a posição inicial da câmera
+
+    // Carrega o modelo 3D com textura
     _model = Object(
       fileName: widget.modelPath,
       scale: Vector3(_scale, _scale, _scale),
     );
+
+    print('Carregando modelo: ${widget.modelPath}');
     _scene.world.add(_model!);
   }
 
